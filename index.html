@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Portfolio">
+  <meta name="keywords" content="Portfolio, ProjectJet, Developer, Software Engineer, Web Developer, Graphic Designer">
+  <meta name="author" content="Mike Siganos">
+  <title>Mike Siganos | Portfolio | ProjectJet</title>
+  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="icon" type="image/x-icon" href="favicon.png">
+  <link rel="apple-touch-icon" href="favicon.png">
+  <link rel="shortcut icon" href="favicon.png">
+  <!-- OpenGraph -->
+  <meta property="og:title" content="Portfolio - Mike Siganos">
+  <meta property="og:description" content="It's all about tech! Software Engineer, Web Developer, Graphic Designer. Learn more...">
+  <meta property="og:image" content="projectjet.gr/favicon.png">
+  <meta property="og:image:secure_url" content="https://www.projectjet.gr/favicon.png">
+  <meta property="og:url" content="https://www.projectjet.gr">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="ProjectJet">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternative" content="el-GR">
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body class="dark">
+  <canvas id="starfield"></canvas>
+  <div id="content">
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo">
+  		<a href="#home"><i class="fas fa-code"></i> Mike Siganos</a>
+  	  </div>
+      <button class="menu-toggle" id="menuToggle" title="Menu Toggle"><i class="fas fa-bars"></i></button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" id="themeToggle" title="Theme Toggle">
+          <i class="fas fa-sun"></i>
+        </button>
+      </div>
+    </nav>
+    <!-- Header -->
+    <header id="home">
+      <h1>Mike Siganos</h1>
+      <p>Software Engineer / Web Developer / Graphic Designer</p>
+      <a href="docs/MikeSiganos-MyCV.pdf" class="btn" download>📄 Download My Resume</a>
+      <div class="social-bar">
+        <a href="https://github.com/mikesiganos" target="_blank" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/mikesiganos/" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/mikesiganos" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="mailto:msiganos@projectjet.gr" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+      <div class="git-bar">
+        <a href="docs/readme" target="_blank" class="flat-href-btn flat-contact-btn">Readme</a>
+        <a href="docs/license" target="_blank" class="flat-href-btn flat-contact-btn">License</a>
+      </div>
+    </header>
+    <!-- About -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I'm a tech-savvy professional with a diverse background in coding, technical support, customer service and sales. 
+        Adept at solving issues, communicating with clarity, and adapting quickly in fast-paced environments. 
+        I have a strong interest in IT, and I'm always looking for chances to level up my skills in systems, coding, network management, troubleshooting, and user support.
+        As a software engineer and graphic designer, meticulous attention to detail and a commitment to optimal code efficiency and clean project design are paramount when developing any application. 
+        I specialize in modern front-end technologies and creating beautiful digital experiences for everyone.
+      </p>
+    </section>
+    <!-- Portfolio -->
+    <section id="portfolio">
+      <h2>My Work</h2>
+      <!-- Project 1 -->
+      <div class="portfolio-grid">
+        <div class="project-card">
+          <img src="images/accounting-dynamics.webp" alt="Accounting Dynamics" width="600px" height="400px" />
+          <div class="project-content">
+            <h3>Accounting Dynamics</h3>
+            <p>To develop the company's online identity, I created the website and social media presence, designed the brand with the team, and provide ongoing technical support along with online services.</p>
+            <a href="https://www.accountingdynamics.gr/en/" target="_blank">View Project →</a>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="project-card">
+          <img src="images/drive-on.webp" alt="Drive On Application" width="600px" height="400px" />
+          <div class="project-content">
+            <h3>Drive On</h3>
+            <p>The objective of this project, as part of <a href="docs/MikeSiganos-MyThesis.pdf" target="_blank" class="flat-href-btn">my thesis</a>, was to develop an Android application that monitors and analyzes driving behavior and offers drivers additional features, such as real-time information.</p>
+            <a href="https://github.com/MikeSiganos/DriveOn" target="_blank">View Project →</a>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="project-card">
+          <img src="images/erp-crm-project.webp" alt="Mini ERP/CRM &amp; eClass Project" width="600px" height="400px" />
+          <div class="project-content">
+            <h3>Mini ERP/CRM &amp; eClass</h3>
+            <p>Development of a customizable learning platform that gives administrators full control over features, while allowing users to work concurrently in the database, following SAP’s integration principles.</p>
+            <a href="#contact" target="_blank">Contact Me →</a>
+          </div>
+        </div>
+        <!-- Project 4 -->
+        <div class="project-card">
+          <img src="images/development-design.webp" alt="App Development & Graphic Design" width="600px" height="400px" />
+          <div class="project-content">
+            <h3>Development &amp; Design</h3>
+            <p>App development is more than writing code, as it blends graphic design, branding &amp; user experience; when aligned, these elements craft seamless user journeys leaving a lasting impression, defining your brand.</p>
+            <a href="#contact" target="_blank">Contact Me →</a>
+          </div>
+        </div>
+        <!-- Project 5 -->
+        <div class="project-card">
+          <img src="images/social-marketing.webp" alt="Social Media & Marketing" width="600px" height="400px" />
+          <div class="project-content">
+            <h3>Social &amp; Marketing</h3>
+            <p>Social media creation, content management, and analytics boost app visibility and brand growth, while evaluating performance and optimizing ads ensure effective campaigns, that increase engagement.</p>
+            <a href="#contact" target="_blank">Contact Me →</a>
+          </div>
+        </div>
+        <!-- Project 6 -->
+        <div class="project-card">
+          <img src="images/tech-support.webp" alt="Tech & Network Support" width="600px" height="400px" />
+          <div class="project-content">
+            <h3>Tech &amp; Network Support</h3>
+            <p>Companies achieve seamless operations by resolving tech issues, enhancing networking, and maintaining infrastructure, as IT support minimizes downtime to keep businesses connected and efficient.</p>
+            <a href="#contact" target="_blank">Contact Me →</a>
+          </div>
+        </div>
+        <!-- Project 7 -->
+        <div class="project-card">
+          <img src="images/java-projects.webp" alt="Java Projects" width="600px" height="400px" />
+          <div class="project-content">
+            <h3>Java Projects</h3>
+            <p>From desktop software to web apps and mobile solutions, Java offers a widely adopted, mature, and versatile platform for building high-performance, secure, scalable, cross-platform and user-friendly applications.</p>
+            <a href="#contact" target="_blank">Contact Me →</a>
+          </div>
+        </div>
+        <!-- Project 8 -->
+        <div class="project-card">
+          <img src="images/cs-projects.webp" alt="C# & C++ Projects" width="600px" height="400px" />
+          <div class="project-content">
+            <h3>C# &amp; C++ Projects</h3>
+            <p>Ideal for building Windows GUI software, web apps, and games, both C# and C++ offer scalability and performance, with C# additionally providing seamless integration within the Microsoft ecosystem.</p>
+            <a href="#contact" target="_blank">Contact Me →</a>
+          </div>
+        </div>
+        <!-- Project 9 -->
+        <div class="project-card">
+          <img src="images/python-projects.webp" alt="Python Projects" width="600px" height="400px" />
+          <div class="project-content">
+            <h3>Python Projects</h3>
+            <p>Python’s simplicity and extensive libraries enable rapid development of cross-platform, scalable solutions for web development, data analysis, AI, automation, machine learning, software testing, and more.</p>
+            <a href="https://github.com/MikeSiganos" target="_blank">View Project →</a>
+          </div>
+        </div>
+        <!-- Project 10 -->
+        <div class="project-card">
+          <img src="images/web-projects.webp" alt="Web Projects & Apps" width="600px" height="400px" />
+          <div class="project-content">
+            <h3>Web Projects &amp; Apps</h3>
+            <p>Whether for a business site, service platform, or e-shop, web apps built with HTML or tools like WordPress prioritize performance, security, and scalability, delivering seamless experiences across devices.</p>
+            <a href="#contact" target="_blank">Contact Me →</a>
+          </div>
+        </div>
+        <!-- Project 11 -->
+        <div class="project-card">
+          <img src="images/unity-project.webp" alt="Mini VR Game" width="600px" height="400px" />
+          <div class="project-content">
+            <h3>Mini VR Game</h3>
+            <p>A PC-based VR action game developed with Unity and C#, focused on high-performance optimization, immersive gameplay, and interactive environments to deliver an enhanced gaming experience.</p>
+            <a href="https://github.com/MikeSiganos/unipiexUnity" target="_blank">View Project →</a>
+          </div>
+        </div>
+        <!-- Project 12 -->
+        <div class="project-card">
+          <img src="images/other-projects.webp" alt="Other Projects" width="600px" height="400px" />
+          <div class="project-content">
+            <h3>Other Projects</h3>
+            <p>I work on diverse, innovative projects across various fields; many of them are publicly available on GitHub, but feel free to get in touch if you'd like to see more, access my full portfolio, or work together.</p>
+            <a href="#contact" target="_blank">Contact Me →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>You can reach me at <a href="mailto:msiganos@projectjet.gr" class="flat-href-btn flat-contact-btn">msiganos@projectjet.gr</a></p>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <p>&copy; <span id="currentYear">2024</span> Mike Siganos. All rights reserved.</p>
+    </footer>
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" title="Back to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+    <!-- Privacy Notice -->
+    <div id="privacyPopup" class="privacy-popup hidden">
+      <div class="privacy-content">
+        <p>
+          This website uses cookies and similar technologies to enhance your experience.<br>
+          Our platform does not collect or process any personally identifiable information except only the email address you may provide us. 
+          We will not use your email address for any other reason than to contact you and we will never share your data with others.<br>
+          Please note that we may collect some anonymous usage statistics to guard your privacy. 
+          Anonymous data is exempt from GDPR/CCPA notification requirements. 
+          These anonymous app usage statistics and error reports helps prioritize features, find bugs, and spot usability issues for improving your experience with our platform.<br>
+          <strong>By continuing to browse, you agree to this Privacy Policy.</strong>
+        </p>
+      </div>
+      <div class="privacy-actions">
+        <button id="acceptPrivacy" class="btn">Accept</button>
+        <button id="closePrivacy" class="close-btn" aria-label="Close Privacy Notice">✖</button>
+      </div>
+    </div>
+  </div>
+  <!-- Scripts -->
+  <script src="js/scripts.js"></script>
+</body>
+</html>
