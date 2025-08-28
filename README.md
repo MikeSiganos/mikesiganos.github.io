@@ -61,7 +61,7 @@ Visit my portfolio at [https://www.projectjet.gr](https://www.projectjet.gr)
 
 ### ⚠️ License Notice
 
->This project is protected by copyright. **The portfolio is intended for viewing only. All content is protected by copyright, and copying - reproduction, modification, or redistribution is strictly prohibited without explicit permission.**
+>This project is protected by ©️ copyright. **The portfolio is intended for viewing only. All content is protected by ©️ copyright, and copying - reproduction, modification, or redistribution is strictly prohibited without explicit permission.**
 
 ---
 
@@ -83,7 +83,7 @@ Here are some of the projects I’ve built.
 
 ## ⚠️ License Notice
 
->**All projects in this profile are protected by copyright and intended for viewing only. Reproduction, redistribution, copying, or modification of any content is strictly prohibited without explicit permission from the author.**
+>**All projects in this profile are protected by ©️ copyright and intended for viewing only. Reproduction, redistribution, copying, or modification of any content is strictly prohibited without explicit permission from the author.**
 
 ---
 
@@ -95,8 +95,8 @@ Here are some of the projects I’ve built.
 
  If you're interested in working together or have any professional questions, feel free to reach me out at [mike@projectjet.gr](mailto:mike@projectjet.gr).
 
-## ©️ Copyright
+## ⚖️ Copyright
 
-© 2025 Mike Siganos. All rights reserved.
+©️ 2025 Mike Siganos. All rights reserved.
 
 ![License: All Rights Reserved](https://img.shields.io/badge/License-All%20Rights%20Reserved-red)
