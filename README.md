@@ -104,6 +104,6 @@ Here are some of the projects I've built and am currently working on...
 
 ## ⚖️ Copyright
 
-©️ 2025 Mike Siganos. All rights reserved.
+©️ 2026 Mike Siganos. All rights reserved.
 
 ![License: All Rights Reserved](https://img.shields.io/badge/License-All%20Rights%20Reserved-red)
