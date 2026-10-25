@@ -1,6 +1,6 @@
 ![License: All Rights Reserved](https://img.shields.io/badge/License-All%20Rights%20Reserved-red)
 
-# Hi, I'm Mike! 👋
+# Hi there, I'm Mike! 👋
 
 **Crafting clean, interactive user experiences with code and creativity.**
 
